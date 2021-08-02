@@ -33,7 +33,7 @@ export default function Personas() {
   return (
     <Fragment>
       <div className="contenMain">
-        <h1>PERSONAS INGRESADAS</h1>
+        <h1>PERSONAS INGRESADAS PRUEBA</h1>
         <div className="contenMain___chlid">
           {loading && <div>Cargando...</div>}
           {!loading && <div>{listaPersonas}</div>}
