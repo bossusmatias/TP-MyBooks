@@ -166,7 +166,7 @@ export default function LibrosList() {
         <LibrosForm onNewLibro={onNewLibroHandler}/>
         <h1 className="flex justify-center py-2 bg-green-300 font-bold">Libros Prestados</h1>
         <div className="bg-gray-100">
-          {loading && <div className="flex juxtify-center">Cargando...</div>}
+          {loading && <div className="flex juxtify-center">Cargando....</div>}
           {listaLibros}
         </div>
       </div>
